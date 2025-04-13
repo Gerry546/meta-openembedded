@@ -12,6 +12,7 @@ PTESTS_FAST_META_PYTHON = "\
     python3-ansicolors \
     python3-asgiref \
     python3-aspectlib \
+    python3-betamax \
     python3-bleak \
     python3-blinker \
     python3-breathe \
@@ -21,7 +22,10 @@ PTESTS_FAST_META_PYTHON = "\
     python3-click \
     python3-dasbus \
     python3-dominate \
+    python3-dnspython \
     python3-execnet \
+    python3-fastjsonschema \
+    python3-fastnumbers \
     python3-flask \
     python3-flexcache \
     python3-flexparser \
@@ -30,6 +34,7 @@ PTESTS_FAST_META_PYTHON = "\
     python3-geojson \
     python3-google-auth-oauthlib \
     python3-gpiod \
+    python3-gpt-image \
     python3-gunicorn \
     python3-html2text \
     python3-httptools \
@@ -43,6 +48,7 @@ PTESTS_FAST_META_PYTHON = "\
     python3-msgpack \
     python3-multidict \
     python3-netaddr \
+    python3-objgraph \
     python3-ordered-set \
     python3-outcome \
     python3-parse \
@@ -54,7 +60,7 @@ PTESTS_FAST_META_PYTHON = "\
     python3-precise-runner \
     python3-prettytable \
     python3-propcache \
-    python3-pyasyncore \
+    python3-pyais \
     python3-pydantic \
     python3-pydantic-core \
     python3-pylint \
@@ -68,9 +74,12 @@ PTESTS_FAST_META_PYTHON = "\
     python3-pytoml \
     python3-pyyaml-include \
     python3-pydbus \
+    python3-pyzmq \
+    python3-pyzstd \
     python3-rapidjson \
     python3-requests-file \
     python3-requests-toolbelt \
+    python3-schedule \
     python3-semver \
     python3-serpent \
     python3-service-identity \
@@ -86,6 +95,7 @@ PTESTS_FAST_META_PYTHON = "\
     python3-typeguard \
     python3-typing-inspection \
     python3-tzdata \
+    python3-uinput \
     python3-ujson \
     python3-u-msgpack-python \
     python3-unidiff \
@@ -115,8 +125,6 @@ PTESTS_SLOW_META_PYTHON = "\
 "
 
 PTESTS_PROBLEMS_META_PYTHON = "\
-    python3-betamax \
-    python3-dnspython \
-    python3-fastjsonschema \
-    python3-pyzmq \
+    python3-pyasyncore \
+    tftpy \
 "
