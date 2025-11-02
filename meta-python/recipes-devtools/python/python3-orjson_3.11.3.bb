@@ -1,7 +1,10 @@
 SUMMARY = "orjson is a fast, correct JSON library for Python"
 HOMEPAGE = "https://pypi.org/project/orjson/"
-LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE-MIT;md5=b377b220f43d747efdec40d69fcaa69d"
+LICENSE = "Apache-2.0 | MIT"
+LIC_FILES_CHKSUM = "\
+    file://LICENSE-MIT;md5=b377b220f43d747efdec40d69fcaa69d \
+    file://LICENSE-APACHE;md5=1836efb2eb779966696f473ee8540542 \
+"
 
 SRC_URI[sha256sum] = "1c0603b1d2ffcd43a411d64797a19556ef76958aef1c182f22dc30860152a98a"
 
