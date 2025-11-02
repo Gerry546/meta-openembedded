@@ -32,3 +32,5 @@ do_install_ptest:append() {
 	# downloaded file is not supported
 	rm -f ${D}${PTEST_PATH}/tests/test_multipart_encoder.py
 }
+
+BBCLASSEXTEND = "native nativesdk"
