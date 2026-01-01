@@ -7,9 +7,9 @@ SRC_URI[sha256sum] = "f48107a8c637e80362555f37ecf49abe20370e557cc4ab374f04ec4423
 
 inherit pypi python_setuptools_build_meta ptest-python-pytest cython
 
-SRC_URI += " \
-    file://0001-build-wheel-in-place.patch \
-"
+SRC_URI += "file://0001-build-wheel-in-place.patch \
+           file://0001-Relax-strict-Cython-requirement.patch \
+           "
 
 DEPENDS += " \
 	python3-expandvars-native \

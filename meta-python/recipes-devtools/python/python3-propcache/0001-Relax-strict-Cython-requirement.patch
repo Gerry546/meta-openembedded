@@ -1,0 +1,24 @@
+From 093a426a453840366c281515fbaa9509c77512df Mon Sep 17 00:00:00 2001
+From: Tom Geelen <t.f.g.geelen@gmail.com>
+Date: Fri, 2 Jan 2026 00:12:43 +0100
+Subject: [PATCH] Relax strict Cython requirement
+
+Signed-off-by: Tom Geelen <t.f.g.geelen@gmail.com>
+Upstream-Status: Pending
+---
+ packaging/pep517_backend/_backend.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/packaging/pep517_backend/_backend.py b/packaging/pep517_backend/_backend.py
+index ce79c4e..e3168ef 100644
+--- a/packaging/pep517_backend/_backend.py
++++ b/packaging/pep517_backend/_backend.py
+@@ -376,7 +376,7 @@ def get_requires_for_build_wheel(
+     if is_pure_python_build:
+         c_ext_build_deps = []
+     else:
+-        c_ext_build_deps = ['Cython ~= 3.1.0']
++        c_ext_build_deps = ['Cython >= 3.1.0']
+ 
+     return _setuptools_get_requires_for_build_wheel(
+         config_settings=config_settings,
